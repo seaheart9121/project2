@@ -1,7 +1,7 @@
 task: pose
 mode: train
-model: ccpd_pose_runs/exp1/weights/best.pt
-data: D:\jyy\academy\(2025-2026-1)-ICE2607-01-trial\data_pose.yaml
+model: yolov8n-pose.pt
+data: C:\Users\KZJ\Desktop\graduation design\project2\data_pose.yaml
 epochs: 50
 time: null
 patience: 100
@@ -10,7 +10,7 @@ imgsz: 640
 save: true
 save_period: -1
 cache: false
-device: null
+device: cpu
 workers: 8
 project: ccpd_pose_runs
 name: exp1
@@ -30,7 +30,6 @@ fraction: 1.0
 profile: false
 freeze: null
 multi_scale: false
-compile: false
 overlap_mask: true
 mask_ratio: 4
 dropout: 0.0
@@ -103,4 +102,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: D:\jyy\academy\(2025-2026-1)-ICE2607-01-trial\ccpd_pose_runs\exp1
+save_dir: ccpd_pose_runs\exp1

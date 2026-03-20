@@ -3,7 +3,7 @@ import os
 import argparse
 
 def train_pose(resume=False, weights=None):
-    last_pt_path = 'ccpd_pose_runs/exp1/weights/last.pt'
+    last_pt_path = 'ccpd_pose_runs/exp2/weights/last.pt'
     
     if resume:
         if os.path.exists(last_pt_path):
@@ -34,7 +34,7 @@ def train_pose(resume=False, weights=None):
         imgsz=640,
         batch=16,
         project='ccpd_pose_runs',
-        name='exp1',
+        name='exp2',
         exist_ok=True,
         pretrained=True
     )
