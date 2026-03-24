@@ -24,7 +24,7 @@ def train_pose(resume=False, weights=None):
     # print(f"加载YOLOv8-Pose模型: {model_path}...")
     # model = YOLO(model_path)
     # 加载模型权重（优先使用你训练好的 best.pt）
-    best_pt_path = 'ccpd_pose_runs/exp2/weights/best.pt'
+    best_pt_path = 'ccpd_pose_runs/exp3/weights/best.pt'
 
     if weights:
         model_path = weights
