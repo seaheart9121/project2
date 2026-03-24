@@ -1,4 +1,5 @@
-path: ccpd_pose_dataset
+path: ccpd_pose_dataset4
+#训练路径
 train: images/train
 val: images/val
 

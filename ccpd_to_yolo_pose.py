@@ -90,8 +90,8 @@ def convert_ccpd_to_yolo_pose(ccpd_root, save_root, train_ratio=0.8, ccpd_green_
                 # 1. 解析 bbox (index 2)
                 bbox_str = parts[2] # min_x&min_y_max_x&max_y
                 coords = bbox_str.split('_')
-                p1 = coords[0].split(',')
-                p2 = coords[1].split(',')
+                p1 = coords[0].split('&')
+                p2 = coords[1].split('&')
                 x1_box, y1_box = int(p1[0]), int(p1[1])
                 x2_box, y2_box = int(p2[0]), int(p2[1])
                 
@@ -102,7 +102,7 @@ def convert_ccpd_to_yolo_pose(ccpd_root, save_root, train_ratio=0.8, ccpd_green_
                 
                 pts = []
                 for v in v_coords:
-                    vx, vy = v.split(',')
+                    vx, vy = v.split('&')
                     pts.append((int(vx), int(vy)))
                 
                 # 转换顺序为 YOLO Pose: TL, TR, BR, BL
@@ -152,10 +152,10 @@ def convert_ccpd_to_yolo_pose(ccpd_root, save_root, train_ratio=0.8, ccpd_green_
 
 if __name__ == "__main__":
     # 配置路径
-    CCPD_ROOT = "qwe"           # 蓝牌数据
-    CCPD_GREEN_ROOT = "ccpd_green"   # 绿牌数据
+    CCPD_ROOT = "qwer"           # 蓝牌数据
+    CCPD_GREEN_ROOT = "zxcv"   # 绿牌数据
     NO_PLATE_ROOT = "ccpd_np" # 无车牌负样本数据 (请将无车牌图片放入此文件夹)
-    SAVE_ROOT = "ccpd_pose_dataset"
+    SAVE_ROOT = "ccpd_pose_dataset4"
 
     # 检查至少有一个数据源存在
     if os.path.exists(CCPD_ROOT) or os.path.exists(CCPD_GREEN_ROOT) or os.path.exists(NO_PLATE_ROOT):

@@ -3,7 +3,7 @@ import os
 import argparse
 
 def train_pose(resume=False, weights=None):
-    last_pt_path = 'ccpd_pose_runs/exp2/weights/last.pt'
+    last_pt_path = 'ccpd_pose_runs/exp3/weights/last.pt'
     
     if resume:
         if os.path.exists(last_pt_path):
@@ -20,9 +20,23 @@ def train_pose(resume=False, weights=None):
             print(f"未找到检查点 {last_pt_path}，将重新开始训练...")
 
     # 加载模型权重
-    model_path = weights if weights else 'yolov8n-pose.pt'
+    # model_path = weights if weights else 'yolov8n-pose.pt'
+    # print(f"加载YOLOv8-Pose模型: {model_path}...")
+    # model = YOLO(model_path)
+    # 加载模型权重（优先使用你训练好的 best.pt）
+    best_pt_path = 'ccpd_pose_runs/exp2/weights/best.pt'
+
+    if weights:
+        model_path = weights
+    elif os.path.exists(best_pt_path):
+        model_path = best_pt_path
+        print("✅ 加载你自己训练好的最优模型：best.pt")
+    else:
+        model_path = 'yolov8n-pose.pt'
+        print("⚠️ 使用官方原始模型：yolov8n-pose.pt")
+
     print(f"加载YOLOv8-Pose模型: {model_path}...")
-    model = YOLO(model_path) 
+    model = YOLO(model_path)
     
     current_dir = os.path.dirname(os.path.abspath(__file__))
     data_yaml_path = os.path.join(current_dir, 'data_pose.yaml')
@@ -30,11 +44,11 @@ def train_pose(resume=False, weights=None):
     print(f"开始训练Pose模型: {data_yaml_path}")
     model.train(
         data=data_yaml_path,
-        epochs=50,
+        epochs=30,
         imgsz=640,
         batch=16,
         project='ccpd_pose_runs',
-        name='exp2',
+        name='exp3',
         exist_ok=True,
         pretrained=True
     )
