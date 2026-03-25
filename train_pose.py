@@ -4,7 +4,7 @@ import argparse
 
 def train_pose(resume=False, weights=None):
     last_pt_path = 'ccpd_pose_runs/exp3/weights/last.pt'
-    
+    #****注意路径****
     if resume:
         if os.path.exists(last_pt_path):
             print(f"正在从 {last_pt_path} 恢复训练...")
@@ -25,7 +25,7 @@ def train_pose(resume=False, weights=None):
     # model = YOLO(model_path)
     # 加载模型权重（优先使用你训练好的 best.pt）
     best_pt_path = 'ccpd_pose_runs/exp3/weights/best.pt'
-
+    # ****注意路径****
     if weights:
         model_path = weights
     elif os.path.exists(best_pt_path):
@@ -48,7 +48,8 @@ def train_pose(resume=False, weights=None):
         imgsz=640,
         batch=16,
         project='ccpd_pose_runs',
-        name='exp3',
+        name='exp4',
+        # ****注意路径****
         exist_ok=True,
         pretrained=True
     )
