@@ -1,6 +1,6 @@
 task: pose
 mode: train
-model: ccpd_pose_runs/exp3/weights/best.pt
+model: ccpd_pose_runs/exp4/weights/best.pt
 data: E:\graduation design\project2\data_pose.yaml
 epochs: 30
 time: null

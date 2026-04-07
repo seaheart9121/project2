@@ -1,7 +1,7 @@
 task: pose
 mode: train
 model: yolov8n-pose.pt
-data: D:\jyy\academy\(2025-2026-1)-ICE2607-01-trial\data_pose.yaml
+data: E:\graduation design\project2\data_pose.yaml
 epochs: 1000
 time: null
 patience: 50
@@ -106,4 +106,4 @@ tracker: botsort.yaml
 save_hybrid: false
 label_smoothing: 0.0
 crop_fraction: 1.0
-save_dir: D:\jyy\academy\(2025-2026-1)-ICE2607-01-trial\Pose\yolov8n-1kv6
+save_dir: E:\graduation design\project2\Pose\yolov8n-1kv6

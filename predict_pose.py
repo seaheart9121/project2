@@ -64,7 +64,7 @@ def predict_and_rectify(model_path, image_path, output_dir='output_rectified'):
         print(f"已保存矫正后的车牌: {save_path}")
 
 if __name__ == "__main__":
-    MODEL_PATH = 'ccpd_pose_runs/exp1/weights/best.pt'
+    MODEL_PATH = 'ccpd_pose_runs/exp5/weights/best.pt'
     TEST_IMG = 'test.jpg'
     if not os.path.exists(MODEL_PATH):
         MODEL_PATH = 'yolov8n-pose.pt' # Fallback

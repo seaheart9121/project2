@@ -1,0 +1,266 @@
+C:\Users\KZJ\AppData\Local\Microsoft\WindowsApps\python3.10.exe "E:\graduation design\project2\lprnet\train2.py" 
+✅ 训练集: 544 张图片 | 验证集: 61 张图片
+📌 使用随机初始化权重
+🚀 开始训练 (设备: cpu) | 总轮数: 50 | 初始LR: 0.001
+Epoch 1/50, Step 0, Loss: 10.9931
+Epoch 1/50, Step 10, Loss: 3.2614
+Epoch 1 | 训练平均Loss: 4.6720
+Epoch 1 | 验证平均Loss: 3.6379
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 3.6379
+Epoch 2/50, Step 0, Loss: 2.6343
+Epoch 2/50, Step 10, Loss: 2.6628
+Epoch 2 | 训练平均Loss: 2.4279
+Epoch 2 | 验证平均Loss: 2.4831
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 2.4831
+Epoch 3/50, Step 0, Loss: 2.4153
+Epoch 3/50, Step 10, Loss: 2.1240
+Epoch 3 | 训练平均Loss: 2.2575
+Epoch 3 | 验证平均Loss: 2.3700
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 2.3700
+Epoch 4/50, Step 0, Loss: 2.1994
+Epoch 4/50, Step 10, Loss: 2.1409
+Epoch 4 | 训练平均Loss: 2.1860
+Epoch 4 | 验证平均Loss: 2.2694
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 2.2694
+Epoch 5/50, Step 0, Loss: 1.8794
+Epoch 5/50, Step 10, Loss: 2.0726
+Epoch 5 | 训练平均Loss: 2.1431
+Epoch 5 | 验证平均Loss: 2.3511
+🔧 当前学习率: 0.001000
+⚠️ 早停计数器: 1/8 (验证Loss未下降)
+⚠️ 本次Loss 2.3511 未优于最优 2.2694, 不保存best模型
+Epoch 6/50, Step 0, Loss: 1.9839
+Epoch 6/50, Step 10, Loss: 1.9969
+Epoch 6 | 训练平均Loss: 2.1052
+Epoch 6 | 验证平均Loss: 2.1887
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 2.1887
+Epoch 7/50, Step 0, Loss: 2.2131
+Epoch 7/50, Step 10, Loss: 2.0896
+Epoch 7 | 训练平均Loss: 2.0646
+Epoch 7 | 验证平均Loss: 2.1131
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 2.1131
+Epoch 8/50, Step 0, Loss: 1.8892
+Epoch 8/50, Step 10, Loss: 2.0730
+Epoch 8 | 训练平均Loss: 2.0184
+Epoch 8 | 验证平均Loss: 2.2968
+🔧 当前学习率: 0.001000
+⚠️ 早停计数器: 1/8 (验证Loss未下降)
+⚠️ 本次Loss 2.2968 未优于最优 2.1131, 不保存best模型
+Epoch 9/50, Step 0, Loss: 1.8901
+Epoch 9/50, Step 10, Loss: 1.9555
+Epoch 9 | 训练平均Loss: 1.9591
+Epoch 9 | 验证平均Loss: 2.0998
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 2.0998
+Epoch 10/50, Step 0, Loss: 1.9725
+Epoch 10/50, Step 10, Loss: 1.9031
+Epoch 10 | 训练平均Loss: 1.8592
+Epoch 10 | 验证平均Loss: 1.8993
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 1.8993
+Epoch 11/50, Step 0, Loss: 1.7459
+Epoch 11/50, Step 10, Loss: 1.5813
+Epoch 11 | 训练平均Loss: 1.7029
+Epoch 11 | 验证平均Loss: 1.6567
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 1.6567
+Epoch 12/50, Step 0, Loss: 1.5436
+Epoch 12/50, Step 10, Loss: 1.3584
+Epoch 12 | 训练平均Loss: 1.4305
+Epoch 12 | 验证平均Loss: 1.7452
+🔧 当前学习率: 0.001000
+⚠️ 早停计数器: 1/8 (验证Loss未下降)
+⚠️ 本次Loss 1.7452 未优于最优 1.6567, 不保存best模型
+Epoch 13/50, Step 0, Loss: 1.3086
+Epoch 13/50, Step 10, Loss: 0.8051
+Epoch 13 | 训练平均Loss: 1.1059
+Epoch 13 | 验证平均Loss: 1.0415
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 1.0415
+Epoch 14/50, Step 0, Loss: 0.9330
+Epoch 14/50, Step 10, Loss: 0.7002
+Epoch 14 | 训练平均Loss: 0.7648
+Epoch 14 | 验证平均Loss: 0.7859
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 0.7859
+Epoch 15/50, Step 0, Loss: 0.6445
+Epoch 15/50, Step 10, Loss: 0.5884
+Epoch 15 | 训练平均Loss: 0.5919
+Epoch 15 | 验证平均Loss: 0.7083
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 0.7083
+Epoch 16/50, Step 0, Loss: 0.4975
+Epoch 16/50, Step 10, Loss: 0.5218
+Epoch 16 | 训练平均Loss: 0.4682
+Epoch 16 | 验证平均Loss: 0.6740
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 0.6740
+Epoch 17/50, Step 0, Loss: 0.5621
+Epoch 17/50, Step 10, Loss: 0.3141
+Epoch 17 | 训练平均Loss: 0.3911
+Epoch 17 | 验证平均Loss: 0.4797
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 0.4797
+Epoch 18/50, Step 0, Loss: 0.2650
+Epoch 18/50, Step 10, Loss: 0.3361
+Epoch 18 | 训练平均Loss: 0.3055
+Epoch 18 | 验证平均Loss: 0.5133
+🔧 当前学习率: 0.001000
+⚠️ 早停计数器: 1/8 (验证Loss未下降)
+⚠️ 本次Loss 0.5133 未优于最优 0.4797, 不保存best模型
+Epoch 19/50, Step 0, Loss: 0.2084
+Epoch 19/50, Step 10, Loss: 0.2810
+Epoch 19 | 训练平均Loss: 0.2419
+Epoch 19 | 验证平均Loss: 0.3352
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 0.3352
+Epoch 20/50, Step 0, Loss: 0.1618
+Epoch 20/50, Step 10, Loss: 0.1899
+Epoch 20 | 训练平均Loss: 0.1968
+Epoch 20 | 验证平均Loss: 0.2764
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 0.2764
+Epoch 21/50, Step 0, Loss: 0.1681
+Epoch 21/50, Step 10, Loss: 0.1514
+Epoch 21 | 训练平均Loss: 0.1555
+Epoch 21 | 验证平均Loss: 0.2446
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 0.2446
+Epoch 22/50, Step 0, Loss: 0.1768
+Epoch 22/50, Step 10, Loss: 0.1262
+Epoch 22 | 训练平均Loss: 0.1270
+Epoch 22 | 验证平均Loss: 0.2649
+🔧 当前学习率: 0.001000
+⚠️ 早停计数器: 1/8 (验证Loss未下降)
+⚠️ 本次Loss 0.2649 未优于最优 0.2446, 不保存best模型
+Epoch 23/50, Step 0, Loss: 0.1345
+Epoch 23/50, Step 10, Loss: 0.0917
+Epoch 23 | 训练平均Loss: 0.1162
+Epoch 23 | 验证平均Loss: 0.2919
+🔧 当前学习率: 0.001000
+⚠️ 早停计数器: 2/8 (验证Loss未下降)
+⚠️ 本次Loss 0.2919 未优于最优 0.2446, 不保存best模型
+Epoch 24/50, Step 0, Loss: 0.0919
+Epoch 24/50, Step 10, Loss: 0.0973
+Epoch 24 | 训练平均Loss: 0.1063
+Epoch 24 | 验证平均Loss: 0.3359
+🔧 当前学习率: 0.001000
+⚠️ 早停计数器: 3/8 (验证Loss未下降)
+⚠️ 本次Loss 0.3359 未优于最优 0.2446, 不保存best模型
+Epoch 25/50, Step 0, Loss: 0.1103
+Epoch 25/50, Step 10, Loss: 0.1149
+Epoch 25 | 训练平均Loss: 0.0950
+Epoch 25 | 验证平均Loss: 0.2733
+🔧 当前学习率: 0.000500
+⚠️ 早停计数器: 4/8 (验证Loss未下降)
+⚠️ 本次Loss 0.2733 未优于最优 0.2446, 不保存best模型
+Epoch 26/50, Step 0, Loss: 0.0669
+Epoch 26/50, Step 10, Loss: 0.0462
+Epoch 26 | 训练平均Loss: 0.0672
+Epoch 26 | 验证平均Loss: 0.2410
+🔧 当前学习率: 0.000500
+🎉 保存最优模型! 最新最优Loss: 0.2410
+Epoch 27/50, Step 0, Loss: 0.0608
+Epoch 27/50, Step 10, Loss: 0.0322
+Epoch 27 | 训练平均Loss: 0.0457
+Epoch 27 | 验证平均Loss: 0.2190
+🔧 当前学习率: 0.000500
+🎉 保存最优模型! 最新最优Loss: 0.2190
+Epoch 28/50, Step 0, Loss: 0.0241
+Epoch 28/50, Step 10, Loss: 0.0402
+Epoch 28 | 训练平均Loss: 0.0372
+Epoch 28 | 验证平均Loss: 0.2224
+🔧 当前学习率: 0.000500
+⚠️ 早停计数器: 1/8 (验证Loss未下降)
+⚠️ 本次Loss 0.2224 未优于最优 0.2190, 不保存best模型
+Epoch 29/50, Step 0, Loss: 0.0166
+Epoch 29/50, Step 10, Loss: 0.0222
+Epoch 29 | 训练平均Loss: 0.0317
+Epoch 29 | 验证平均Loss: 0.2035
+🔧 当前学习率: 0.000500
+🎉 保存最优模型! 最新最优Loss: 0.2035
+Epoch 30/50, Step 0, Loss: 0.0371
+Epoch 30/50, Step 10, Loss: 0.0604
+Epoch 30 | 训练平均Loss: 0.0237
+Epoch 30 | 验证平均Loss: 0.1999
+🔧 当前学习率: 0.000500
+🎉 保存最优模型! 最新最优Loss: 0.1999
+Epoch 31/50, Step 0, Loss: 0.0335
+Epoch 31/50, Step 10, Loss: 0.0205
+Epoch 31 | 训练平均Loss: 0.0217
+Epoch 31 | 验证平均Loss: 0.2339
+🔧 当前学习率: 0.000500
+⚠️ 早停计数器: 1/8 (验证Loss未下降)
+⚠️ 本次Loss 0.2339 未优于最优 0.1999, 不保存best模型
+Epoch 32/50, Step 0, Loss: 0.0263
+Epoch 32/50, Step 10, Loss: 0.0179
+Epoch 32 | 训练平均Loss: 0.0217
+Epoch 32 | 验证平均Loss: 0.1812
+🔧 当前学习率: 0.000500
+🎉 保存最优模型! 最新最优Loss: 0.1812
+Epoch 33/50, Step 0, Loss: 0.0250
+Epoch 33/50, Step 10, Loss: 0.0160
+Epoch 33 | 训练平均Loss: 0.0188
+Epoch 33 | 验证平均Loss: 0.2585
+🔧 当前学习率: 0.000500
+⚠️ 早停计数器: 1/8 (验证Loss未下降)
+⚠️ 本次Loss 0.2585 未优于最优 0.1812, 不保存best模型
+Epoch 34/50, Step 0, Loss: 0.0183
+Epoch 34/50, Step 10, Loss: 0.0167
+Epoch 34 | 训练平均Loss: 0.0206
+Epoch 34 | 验证平均Loss: 0.2248
+🔧 当前学习率: 0.000500
+⚠️ 早停计数器: 2/8 (验证Loss未下降)
+⚠️ 本次Loss 0.2248 未优于最优 0.1812, 不保存best模型
+Epoch 35/50, Step 0, Loss: 0.0109
+Epoch 35/50, Step 10, Loss: 0.0296
+Epoch 35 | 训练平均Loss: 0.0159
+Epoch 35 | 验证平均Loss: 0.2089
+🔧 当前学习率: 0.000500
+⚠️ 早停计数器: 3/8 (验证Loss未下降)
+⚠️ 本次Loss 0.2089 未优于最优 0.1812, 不保存best模型
+Epoch 36/50, Step 0, Loss: 0.0097
+Epoch 36/50, Step 10, Loss: 0.0073
+Epoch 36 | 训练平均Loss: 0.0131
+Epoch 36 | 验证平均Loss: 0.2191
+🔧 当前学习率: 0.000250
+⚠️ 早停计数器: 4/8 (验证Loss未下降)
+⚠️ 本次Loss 0.2191 未优于最优 0.1812, 不保存best模型
+Epoch 37/50, Step 0, Loss: 0.0119
+Epoch 37/50, Step 10, Loss: 0.0091
+Epoch 37 | 训练平均Loss: 0.0135
+Epoch 37 | 验证平均Loss: 0.2240
+🔧 当前学习率: 0.000250
+⚠️ 早停计数器: 5/8 (验证Loss未下降)
+⚠️ 本次Loss 0.2240 未优于最优 0.1812, 不保存best模型
+Epoch 38/50, Step 0, Loss: 0.0113
+Epoch 38/50, Step 10, Loss: 0.0085
+Epoch 38 | 训练平均Loss: 0.0105
+Epoch 38 | 验证平均Loss: 0.2077
+🔧 当前学习率: 0.000250
+⚠️ 早停计数器: 6/8 (验证Loss未下降)
+⚠️ 本次Loss 0.2077 未优于最优 0.1812, 不保存best模型
+Epoch 39/50, Step 0, Loss: 0.0083
+Epoch 39/50, Step 10, Loss: 0.0119
+Epoch 39 | 训练平均Loss: 0.0100
+Epoch 39 | 验证平均Loss: 0.2136
+🔧 当前学习率: 0.000250
+⚠️ 早停计数器: 7/8 (验证Loss未下降)
+⚠️ 本次Loss 0.2136 未优于最优 0.1812, 不保存best模型
+Epoch 40/50, Step 0, Loss: 0.0192
+Epoch 40/50, Step 10, Loss: 0.0035
+Epoch 40 | 训练平均Loss: 0.0097
+Epoch 40 | 验证平均Loss: 0.2112
+🔧 当前学习率: 0.000125
+⚠️ 早停计数器: 8/8 (验证Loss未下降)
+🛑 触发早停，停止训练
+
+🏁 训练完成! 最优验证Loss: 0.1812 | 最优模型路径: lpr_runs/lprnet_best.pth
+
+进程已结束，退出代码为 0

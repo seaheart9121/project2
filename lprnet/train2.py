@@ -232,7 +232,7 @@ def train_lpr(resume=False, weights=None):
     optimizer = optim.Adam(
         model.parameters(), lr=INIT_LR, weight_decay=1e-5  # L2正则
     )
-    # 学习率调度器：移除verbose参数（适配低版本PyTorch）
+    # 学习率调度器
     scheduler = ReduceLROnPlateau(
         optimizer, mode='min', factor=0.5, patience=3, min_lr=1e-6
     )
