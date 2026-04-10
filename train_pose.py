@@ -3,7 +3,7 @@ import os
 import argparse
 
 def train_pose(resume=False, weights=None):
-    last_pt_path = 'ccpd_pose_runs/exp4/weights/last.pt'
+    last_pt_path = 'ccpd_pose_runs/exp6/weights/last.pt'
     #****注意路径****
     if resume:
         if os.path.exists(last_pt_path):
@@ -24,7 +24,7 @@ def train_pose(resume=False, weights=None):
     # print(f"加载YOLOv8-Pose模型: {model_path}...")
     # model = YOLO(model_path)
     # 加载模型权重（优先使用你训练好的 best.pt）
-    best_pt_path = 'ccpd_pose_runs/exp4/weights/best.pt'
+    best_pt_path = 'ccpd_pose_runs/exp6/weights/best.pt'
     # ****注意路径****
     if weights:
         model_path = weights
@@ -48,7 +48,7 @@ def train_pose(resume=False, weights=None):
         imgsz=640,
         batch=16,
         project='ccpd_pose_runs',
-        name='exp5',
+        name='exp7',
         # ****注意路径****
         exist_ok=True,
         pretrained=True

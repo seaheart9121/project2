@@ -365,10 +365,10 @@ def convert_ccpd_to_yolo_pose(ccpd_root, save_root, train_ratio=0.8, ccpd_green_
 
 if __name__ == "__main__":
     # 配置路径
-    CCPD_ROOT = "qwerty"  # 蓝牌数据 (,分隔)
-    CCPD_GREEN_ROOT = "zxcvbn"  # 绿牌数据 (&分隔)
+    CCPD_ROOT = "qwertyu"  # 蓝牌数据 (,分隔)
+    CCPD_GREEN_ROOT = "zxcvbnm"  # 绿牌数据 (&分隔)
     NO_PLATE_ROOT = "ccpd_np"  # 无车牌负样本数据
-    SAVE_ROOT = "ccpd_pose_dataset5"
+    SAVE_ROOT = "ccpd_pose_dataset7"
 
     # 检查至少有一个数据源存在
     if os.path.exists(CCPD_ROOT) or os.path.exists(CCPD_GREEN_ROOT) or os.path.exists(NO_PLATE_ROOT):
