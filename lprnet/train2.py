@@ -202,8 +202,8 @@ def train_lpr(resume=False, weights=None):
     DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     # ===== 2. 数据集加载（区分训练/验证集，适配你的路径）=====
-    train_dir = 'lpr_dataset/train'
-    val_dir = 'lpr_dataset/val'
+    train_dir = 'lpr_dataset2/train'
+    val_dir = 'lpr_dataset2/val'
     # 检查目录合法性
     for dir_path, dir_name in [(train_dir, "训练集"), (val_dir, "验证集")]:
         if not os.path.exists(dir_path):

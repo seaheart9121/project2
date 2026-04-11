@@ -170,8 +170,8 @@ def convert_ccpd_to_lpr(ccpd_root, save_root):
     process(val_files, 'val')
 
 if __name__ == "__main__":
-    CCPD_ROOT = "../qwer"  # 你的数据集目录
-    SAVE_ROOT = "lpr_dataset"
+    CCPD_ROOT = "../qwert"  # 你的数据集目录
+    SAVE_ROOT = "lpr_dataset2"
     if os.path.exists(CCPD_ROOT):
         convert_ccpd_to_lpr(CCPD_ROOT, SAVE_ROOT)
     else:

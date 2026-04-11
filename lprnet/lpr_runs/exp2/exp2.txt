@@ -1,0 +1,120 @@
+C:\Users\KZJ\AppData\Local\Microsoft\WindowsApps\python3.10.exe "E:\graduation design\project2\lprnet\train3.py" 
+📁 本次训练文件将保存到: lpr_runs\exp1
+✅ 训练集: 108 张图片 | 验证集: 12 张图片
+📌 使用随机初始化权重
+🚀 开始训练 (设备: cpu) | 总轮数: 50 | 初始LR: 0.001
+Epoch 1/50, Step 0, Loss: 11.5240
+Epoch 1 | 训练平均Loss: 9.0835
+Epoch 1 | 验证平均Loss: 9.9752
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 9.9752 (路径: lpr_runs\exp1\lprnet_best.pth)
+Epoch 2/50, Step 0, Loss: 5.2391
+Epoch 2 | 训练平均Loss: 4.0343
+Epoch 2 | 验证平均Loss: 5.8701
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 5.8701 (路径: lpr_runs\exp1\lprnet_best.pth)
+Epoch 3/50, Step 0, Loss: 3.4900
+Epoch 3 | 训练平均Loss: 3.2492
+Epoch 3 | 验证平均Loss: 4.9838
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 4.9838 (路径: lpr_runs\exp1\lprnet_best.pth)
+Epoch 4/50, Step 0, Loss: 2.9483
+Epoch 4 | 训练平均Loss: 2.9186
+Epoch 4 | 验证平均Loss: 4.6617
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 4.6617 (路径: lpr_runs\exp1\lprnet_best.pth)
+Epoch 5/50, Step 0, Loss: 2.6770
+Epoch 5 | 训练平均Loss: 2.7640
+Epoch 5 | 验证平均Loss: 3.6943
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 3.6943 (路径: lpr_runs\exp1\lprnet_best.pth)
+Epoch 6/50, Step 0, Loss: 2.6946
+Epoch 6 | 训练平均Loss: 2.7069
+Epoch 6 | 验证平均Loss: 3.1759
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 3.1759 (路径: lpr_runs\exp1\lprnet_best.pth)
+Epoch 7/50, Step 0, Loss: 2.6288
+Epoch 7 | 训练平均Loss: 2.6322
+Epoch 7 | 验证平均Loss: 3.2666
+🔧 当前学习率: 0.001000
+⚠️ 早停计数器: 1/8 (验证Loss未下降)
+⚠️ 本次Loss 3.2666 未优于最优 3.1759, 不保存best模型
+Epoch 8/50, Step 0, Loss: 2.5763
+Epoch 8 | 训练平均Loss: 2.5777
+Epoch 8 | 验证平均Loss: 2.8538
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 2.8538 (路径: lpr_runs\exp1\lprnet_best.pth)
+Epoch 9/50, Step 0, Loss: 2.4712
+Epoch 9 | 训练平均Loss: 2.5756
+Epoch 9 | 验证平均Loss: 2.8239
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 2.8239 (路径: lpr_runs\exp1\lprnet_best.pth)
+Epoch 10/50, Step 0, Loss: 2.5351
+Epoch 10 | 训练平均Loss: 2.5488
+Epoch 10 | 验证平均Loss: 2.8815
+🔧 当前学习率: 0.001000
+⚠️ 早停计数器: 1/8 (验证Loss未下降)
+⚠️ 本次Loss 2.8815 未优于最优 2.8239, 不保存best模型
+Epoch 11/50, Step 0, Loss: 2.5626
+Epoch 11 | 训练平均Loss: 2.5249
+Epoch 11 | 验证平均Loss: 2.7941
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 2.7941 (路径: lpr_runs\exp1\lprnet_best.pth)
+Epoch 12/50, Step 0, Loss: 2.5056
+Epoch 12 | 训练平均Loss: 2.5214
+Epoch 12 | 验证平均Loss: 2.7757
+🔧 当前学习率: 0.001000
+🎉 保存最优模型! 最新最优Loss: 2.7757 (路径: lpr_runs\exp1\lprnet_best.pth)
+Epoch 13/50, Step 0, Loss: 2.5279
+Epoch 13 | 训练平均Loss: 2.4396
+Epoch 13 | 验证平均Loss: 2.8027
+🔧 当前学习率: 0.001000
+⚠️ 早停计数器: 1/8 (验证Loss未下降)
+⚠️ 本次Loss 2.8027 未优于最优 2.7757, 不保存best模型
+Epoch 14/50, Step 0, Loss: 2.5326
+Epoch 14 | 训练平均Loss: 2.4498
+Epoch 14 | 验证平均Loss: 2.7970
+🔧 当前学习率: 0.001000
+⚠️ 早停计数器: 2/8 (验证Loss未下降)
+⚠️ 本次Loss 2.7970 未优于最优 2.7757, 不保存best模型
+Epoch 15/50, Step 0, Loss: 2.4900
+Epoch 15 | 训练平均Loss: 2.4106
+Epoch 15 | 验证平均Loss: 2.8370
+🔧 当前学习率: 0.001000
+⚠️ 早停计数器: 3/8 (验证Loss未下降)
+⚠️ 本次Loss 2.8370 未优于最优 2.7757, 不保存best模型
+Epoch 16/50, Step 0, Loss: 2.4824
+Epoch 16 | 训练平均Loss: 2.4443
+Epoch 16 | 验证平均Loss: 2.8507
+🔧 当前学习率: 0.000500
+⚠️ 早停计数器: 4/8 (验证Loss未下降)
+⚠️ 本次Loss 2.8507 未优于最优 2.7757, 不保存best模型
+Epoch 17/50, Step 0, Loss: 2.3990
+Epoch 17 | 训练平均Loss: 2.4266
+Epoch 17 | 验证平均Loss: 2.8200
+🔧 当前学习率: 0.000500
+⚠️ 早停计数器: 5/8 (验证Loss未下降)
+⚠️ 本次Loss 2.8200 未优于最优 2.7757, 不保存best模型
+Epoch 18/50, Step 0, Loss: 2.3831
+Epoch 18 | 训练平均Loss: 2.4300
+Epoch 18 | 验证平均Loss: 2.8025
+🔧 当前学习率: 0.000500
+⚠️ 早停计数器: 6/8 (验证Loss未下降)
+⚠️ 本次Loss 2.8025 未优于最优 2.7757, 不保存best模型
+Epoch 19/50, Step 0, Loss: 2.4230
+Epoch 19 | 训练平均Loss: 2.4251
+Epoch 19 | 验证平均Loss: 2.7927
+🔧 当前学习率: 0.000500
+⚠️ 早停计数器: 7/8 (验证Loss未下降)
+⚠️ 本次Loss 2.7927 未优于最优 2.7757, 不保存best模型
+Epoch 20/50, Step 0, Loss: 2.4479
+Epoch 20 | 训练平均Loss: 2.3869
+Epoch 20 | 验证平均Loss: 2.7794
+🔧 当前学习率: 0.000250
+⚠️ 早停计数器: 8/8 (验证Loss未下降)
+🛑 触发早停，停止训练
+
+🏁 训练完成!
+📊 最优验证Loss: 2.7757
+📁 最优模型路径: E:\graduation design\project2\lprnet\lpr_runs\exp1\lprnet_best.pth
+📁 最新检查点路径: E:\graduation design\project2\lprnet\lpr_runs\exp1\lprnet_last.pth
