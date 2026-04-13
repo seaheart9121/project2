@@ -86,8 +86,8 @@ def generate_augmented_data(src_dir, dst_dir):
 
 if __name__ == "__main__":
     # 假设你已经运行了 lprnet/ccpd_to_lpr.py 生成了 lpr_dataset
-    LPR_ROOT = "./lpr_dataset"
-    DST_DIR = "./color_dataset"
+    LPR_ROOT = "../lprnet/lpr_dataset2"
+    DST_DIR = "../colornet/color_dataset2"
     
     for subset in ['train', 'val']:
         src_dir = os.path.join(LPR_ROOT, subset)

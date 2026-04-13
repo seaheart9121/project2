@@ -56,7 +56,7 @@ class PlateRecognitionModel:
         """加载所有模型"""
         try:
             # 1. YOLO Pose 模型加载
-            local_yolo = 'ccpd_pose_runs/exp1/weights/best.pt'
+            local_yolo = 'ccpd_pose_runs/exp7/weights/best.pt'
             if os.path.exists(local_yolo):
                 self.yolo_path = local_yolo
             else:
