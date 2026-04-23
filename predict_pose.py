@@ -50,7 +50,7 @@ def predict_and_rectify(model_path, image_path, output_dir='output_rectified'):
     # 获取关键点
     # shape: (N, 4, 2) or (N, 4, 3)
     keypoints = result.keypoints.xy.cpu().numpy()
-    
+
     for i, kpts in enumerate(keypoints):
         # kpts shape: (4, 2) -> TL, TR, BR, BL
         # 转换为float32
@@ -59,15 +59,44 @@ def predict_and_rectify(model_path, image_path, output_dir='output_rectified'):
         # 透视变换
         warped = four_point_transform(img, pts)
         
-        save_path = os.path.join(output_dir, f"rectified_{i}.jpg")
+        # save_path = os.path.join(output_dir, f"rectified_{i}.jpg")
+        base_name = f"rectified_{i}"
+        save_path = os.path.join(output_dir, f"{base_name}.jpg")
+        # 如果文件已存在，自动加后缀（_1、_2...）
+        count = 1
+        while os.path.exists(save_path):
+            save_path = os.path.join(output_dir, f"{base_name}_{count}.jpg")
+            count += 1
+
         cv2.imwrite(save_path, warped)
         print(f"已保存矫正后的车牌: {save_path}")
 
+# if __name__ == "__main__":
+#     MODEL_PATH = 'ccpd_pose_runs/exp5/weights/best.pt'
+#     TEST_IMG = 'images/car4.jpg'
+#     if not os.path.exists(MODEL_PATH):
+#         MODEL_PATH = 'yolov8n-pose.pt' # Fallback
+#
+#     if os.path.exists(TEST_IMG):
+#         predict_and_rectify(MODEL_PATH, TEST_IMG)
+
 if __name__ == "__main__":
-    MODEL_PATH = 'ccpd_pose_runs/exp5/weights/best.pt'
-    TEST_IMG = 'test.jpg'
+    # ========== 请修改这里的路径 ==========
+    MODEL_PATH = 'ccpd_pose_runs/exp5/weights/best.pt'  # 你的训练模型路径
+    TEST_IMG = 'images/car7.jpg'  # 你的测试图片路径
+    # =====================================
+
+    # 步骤1：校验模型路径
+    print(f"===== 程序启动 =====")
     if not os.path.exists(MODEL_PATH):
-        MODEL_PATH = 'yolov8n-pose.pt' # Fallback
-    
-    if os.path.exists(TEST_IMG):
+        print(f"⚠️  未找到训练模型 {MODEL_PATH}，将使用官方预训练模型 yolov8n-pose.pt")
+        MODEL_PATH = 'yolov8n-pose.pt'
+
+    # 步骤2：校验测试图片路径
+    if not os.path.exists(TEST_IMG):
+        print(f"❌ 测试图片不存在：{TEST_IMG}")
+    else:
+        # 执行核心逻辑
         predict_and_rectify(MODEL_PATH, TEST_IMG)
+
+    print(f"\n程序正常退出（退出代码 0）")
