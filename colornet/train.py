@@ -75,7 +75,7 @@ def train_color_net(resume=False):
     DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     BASE_DIR = 'color_runs'
 
-    dataset_dir = './color_dataset4'
+    dataset_dir = './color_dataset5'
     if not os.path.exists(dataset_dir):
         print(f"错误: 找不到数据集 {dataset_dir}")
         return
