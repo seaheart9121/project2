@@ -3,11 +3,8 @@ from torch.utils.data import Dataset
 import os
 import cv2
 import numpy as np
-import sys
-
-# 添加当前目录到path
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from model import CHARS
+
 
 class LPRDataset(Dataset):
     def __init__(self, root_dir, transform=None):
@@ -22,26 +19,25 @@ class LPRDataset(Dataset):
     def __getitem__(self, idx):
         filename = self.image_files[idx]
         img_path = os.path.join(self.root_dir, filename)
-        
-        # 读取图片
-        # cv2.imdecode for chinese path
+
         img = cv2.imdecode(np.fromfile(img_path, dtype=np.uint8), cv2.IMREAD_COLOR)
-        img = cv2.resize(img, (94, 24))
-        img = img.astype('float32') / 255.0
-        img = img.transpose(2, 0, 1) # HWC -> CHW
-        
-        # 解析标签 (文件名即标签: 皖A12345_xxxx.jpg)
+        if img is None:
+            raise ValueError(f"读取失败: {img_path}")
+
+        if self.transform:
+            img = self.transform(image=img)['image']
+        else:
+            img = cv2.resize(img, (94, 24))
+            img = img.astype('float32') / 255.0
+            img = img.transpose(2, 0, 1)
+
+        # ====== 不补 '-' ======
         label_str = filename.split('_')[0]
-        label = []
-        for c in label_str:
-            if c in self.char_to_idx:
-                label.append(self.char_to_idx[c])
-        
-        return torch.tensor(img), torch.tensor(label, dtype=torch.long), len(label)
+        label = [self.char_to_idx[c] for c in label_str]
+
+        return torch.tensor(img), torch.tensor(label), len(label)
+
 
 def collate_fn(batch):
     imgs, labels, lengths = zip(*batch)
-    imgs = torch.stack(imgs)
-    labels = torch.cat(labels)
-    lengths = torch.tensor(lengths)
-    return imgs, labels, lengths
+    return torch.stack(imgs), torch.cat(labels), torch.tensor(lengths)

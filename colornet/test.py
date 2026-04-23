@@ -16,7 +16,7 @@ MODEL_PATHS = [
     "./color_runs/exp2/color_best.pth"
 ]
 
-TEST_DATASET = "./color_dataset1"  # 你的测试集路径
+TEST_DATASET = "./color_dataset2"  # 你的测试集路径
 
 
 def test_model_accuracy(model_path, test_loader, device):

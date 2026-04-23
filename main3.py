@@ -555,7 +555,7 @@ class ParkingSystem(tk.Tk):
     #     canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
 
     def show_fee_chart(self):
-        """修复：绝对不会报错的收入图表"""
+        """收入图表"""
         chart_win = tk.Toplevel(self)
         chart_win.title("收入统计图表")
         chart_win.geometry("800x500")
