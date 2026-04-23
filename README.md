@@ -14,3 +14,10 @@ train_pose
 核心识别：plate_recognizer.py（+ ocrutil.py兜底）→ 
 数据管理：datautil.py → 
 可视化交互：main3.py
+
+✔ GUI负责显示
+✔ OpenCV只负责“抓拍一帧”
+
+CCPD → 数据转换 → LPRNet训练 → exp对比 → OCR识别
+YOLO检测 → 车牌裁剪 → LPRNet识别 → 输出结果
+车牌图片 → CNN分类 → 蓝/黄/绿
