@@ -1,311 +1,311 @@
-C:\Users\KZJ\AppData\Local\Microsoft\WindowsApps\python3.10.exe "E:\graduation design\project2\colornet\train2.py" 
+C:\Users\KZJ\AppData\Local\Microsoft\WindowsApps\python3.10.exe "E:\graduation design\project2\colornet\train.py" 
 📁 本次训练保存到: color_runs\exp2
 📌 自动加载上一轮模型: color_runs\exp1\color_best.pth
 开始训练颜色分类模型, 样本数: 240
 Epoch 1/200, Step 0, Loss: 0.0000
-Epoch 1, Loss: 0.0870, Acc: 99.17%
+Epoch 1, Loss: 0.0712, Acc: 98.75%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 2/200, Step 0, Loss: 0.1616
-Epoch 2, Loss: 0.1469, Acc: 98.75%
+Epoch 2/200, Step 0, Loss: 0.0004
+Epoch 2, Loss: 0.2133, Acc: 98.33%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 3/200, Step 0, Loss: 0.3048
-Epoch 3, Loss: 0.2119, Acc: 97.92%
+Epoch 3/200, Step 0, Loss: 0.1728
+Epoch 3, Loss: 0.0432, Acc: 99.17%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 4/200, Step 0, Loss: 0.0000
-Epoch 4, Loss: 0.0984, Acc: 98.33%
+Epoch 4, Loss: 0.0981, Acc: 98.75%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 5/200, Step 0, Loss: 0.0120
-Epoch 5, Loss: 0.0387, Acc: 99.17%
+Epoch 5/200, Step 0, Loss: 0.0002
+Epoch 5, Loss: 0.0086, Acc: 99.17%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 6/200, Step 0, Loss: 0.0000
-Epoch 6, Loss: 0.0238, Acc: 99.17%
+Epoch 6/200, Step 0, Loss: 0.0003
+Epoch 6, Loss: 0.0002, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 7/200, Step 0, Loss: 0.0140
-Epoch 7, Loss: 0.0274, Acc: 98.75%
+Epoch 7/200, Step 0, Loss: 0.0011
+Epoch 7, Loss: 0.0823, Acc: 98.75%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 8/200, Step 0, Loss: 0.0000
-Epoch 8, Loss: 0.0168, Acc: 99.58%
+Epoch 8/200, Step 0, Loss: 0.0980
+Epoch 8, Loss: 0.0259, Acc: 99.17%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 9/200, Step 0, Loss: 0.0001
-Epoch 9, Loss: 0.0253, Acc: 99.17%
+Epoch 9/200, Step 0, Loss: 0.0000
+Epoch 9, Loss: 0.0040, Acc: 99.58%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 10/200, Step 0, Loss: 0.0666
-Epoch 10, Loss: 0.0168, Acc: 99.58%
+Epoch 10/200, Step 0, Loss: 0.0001
+Epoch 10, Loss: 0.0258, Acc: 98.75%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 11/200, Step 0, Loss: 0.0750
-Epoch 11, Loss: 0.0190, Acc: 99.58%
+Epoch 11/200, Step 0, Loss: 0.0022
+Epoch 11, Loss: 0.0006, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 12/200, Step 0, Loss: 0.0001
-Epoch 12, Loss: 0.0193, Acc: 99.58%
+Epoch 12, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 13/200, Step 0, Loss: 0.0005
-Epoch 13, Loss: 0.0071, Acc: 99.58%
+Epoch 13/200, Step 0, Loss: 0.0001
+Epoch 13, Loss: 0.0012, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 14/200, Step 0, Loss: 0.0000
-Epoch 14, Loss: 0.0176, Acc: 99.17%
+Epoch 14, Loss: 0.0038, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 15/200, Step 0, Loss: 0.0048
-Epoch 15, Loss: 0.0041, Acc: 99.58%
+Epoch 15/200, Step 0, Loss: 0.0007
+Epoch 15, Loss: 0.0008, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 16/200, Step 0, Loss: 0.0002
-Epoch 16, Loss: 0.0385, Acc: 99.58%
+Epoch 16/200, Step 0, Loss: 0.0000
+Epoch 16, Loss: 0.0001, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 17/200, Step 0, Loss: 0.0029
-Epoch 17, Loss: 0.0193, Acc: 99.58%
+Epoch 17/200, Step 0, Loss: 0.0000
+Epoch 17, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 18/200, Step 0, Loss: 0.0143
-Epoch 18, Loss: 0.0261, Acc: 99.17%
+Epoch 18/200, Step 0, Loss: 0.0000
+Epoch 18, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 19/200, Step 0, Loss: 0.0000
-Epoch 19, Loss: 0.0228, Acc: 99.17%
+Epoch 19, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 20/200, Step 0, Loss: 0.0000
-Epoch 20, Loss: 0.0187, Acc: 99.58%
+Epoch 20, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 21/200, Step 0, Loss: 0.0834
-Epoch 21, Loss: 0.0216, Acc: 99.58%
+Epoch 21/200, Step 0, Loss: 0.0000
+Epoch 21, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 22/200, Step 0, Loss: 0.0390
-Epoch 22, Loss: 0.0105, Acc: 99.58%
+Epoch 22/200, Step 0, Loss: 0.0000
+Epoch 22, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 23/200, Step 0, Loss: 0.0220
-Epoch 23, Loss: 0.0073, Acc: 99.58%
+Epoch 23/200, Step 0, Loss: 0.0000
+Epoch 23, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 24/200, Step 0, Loss: 0.0000
-Epoch 24, Loss: 0.0037, Acc: 99.58%
+Epoch 24, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 25/200, Step 0, Loss: 0.0005
-Epoch 25, Loss: 0.0034, Acc: 100.00%
+Epoch 25/200, Step 0, Loss: 0.0000
+Epoch 25, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 26/200, Step 0, Loss: 0.0025
-Epoch 26, Loss: 0.0042, Acc: 99.58%
+Epoch 26/200, Step 0, Loss: 0.0000
+Epoch 26, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 27/200, Step 0, Loss: 0.0029
-Epoch 27, Loss: 0.0020, Acc: 100.00%
+Epoch 27/200, Step 0, Loss: 0.0000
+Epoch 27, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 28/200, Step 0, Loss: 0.0001
-Epoch 28, Loss: 0.0028, Acc: 100.00%
+Epoch 28/200, Step 0, Loss: 0.0000
+Epoch 28, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 29/200, Step 0, Loss: 0.0015
-Epoch 29, Loss: 0.0022, Acc: 100.00%
+Epoch 29/200, Step 0, Loss: 0.0000
+Epoch 29, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 30/200, Step 0, Loss: 0.0021
-Epoch 30, Loss: 0.0024, Acc: 100.00%
+Epoch 30/200, Step 0, Loss: 0.0000
+Epoch 30, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 31/200, Step 0, Loss: 0.0019
-Epoch 31, Loss: 0.0015, Acc: 100.00%
+Epoch 31/200, Step 0, Loss: 0.0000
+Epoch 31, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 32/200, Step 0, Loss: 0.0000
-Epoch 32, Loss: 0.0027, Acc: 100.00%
+Epoch 32, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 33/200, Step 0, Loss: 0.0023
-Epoch 33, Loss: 0.0016, Acc: 100.00%
+Epoch 33/200, Step 0, Loss: 0.0000
+Epoch 33, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 34/200, Step 0, Loss: 0.0005
-Epoch 34, Loss: 0.0013, Acc: 100.00%
+Epoch 34/200, Step 0, Loss: 0.0000
+Epoch 34, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 35/200, Step 0, Loss: 0.0030
-Epoch 35, Loss: 0.0013, Acc: 100.00%
+Epoch 35/200, Step 0, Loss: 0.0000
+Epoch 35, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 36/200, Step 0, Loss: 0.0005
-Epoch 36, Loss: 0.0013, Acc: 100.00%
+Epoch 36/200, Step 0, Loss: 0.0000
+Epoch 36, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 37/200, Step 0, Loss: 0.0000
-Epoch 37, Loss: 0.0011, Acc: 100.00%
+Epoch 37, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 38/200, Step 0, Loss: 0.0015
-Epoch 38, Loss: 0.0011, Acc: 100.00%
+Epoch 38/200, Step 0, Loss: 0.0000
+Epoch 38, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 39/200, Step 0, Loss: 0.0017
-Epoch 39, Loss: 0.0010, Acc: 100.00%
+Epoch 39/200, Step 0, Loss: 0.0000
+Epoch 39, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 40/200, Step 0, Loss: 0.0006
-Epoch 40, Loss: 0.0010, Acc: 100.00%
+Epoch 40/200, Step 0, Loss: 0.0000
+Epoch 40, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 41/200, Step 0, Loss: 0.0020
-Epoch 41, Loss: 0.0008, Acc: 100.00%
+Epoch 41/200, Step 0, Loss: 0.0000
+Epoch 41, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 42/200, Step 0, Loss: 0.0004
-Epoch 42, Loss: 0.0010, Acc: 100.00%
+Epoch 42/200, Step 0, Loss: 0.0000
+Epoch 42, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 43/200, Step 0, Loss: 0.0003
-Epoch 43, Loss: 0.0008, Acc: 100.00%
+Epoch 43/200, Step 0, Loss: 0.0000
+Epoch 43, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 44/200, Step 0, Loss: 0.0010
-Epoch 44, Loss: 0.0010, Acc: 100.00%
+Epoch 44/200, Step 0, Loss: 0.0000
+Epoch 44, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 45/200, Step 0, Loss: 0.0000
-Epoch 45, Loss: 0.0007, Acc: 100.00%
+Epoch 45, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 46/200, Step 0, Loss: 0.0000
-Epoch 46, Loss: 0.0007, Acc: 100.00%
+Epoch 46, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 47/200, Step 0, Loss: 0.0000
-Epoch 47, Loss: 0.0006, Acc: 100.00%
+Epoch 47, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 48/200, Step 0, Loss: 0.0010
-Epoch 48, Loss: 0.0006, Acc: 100.00%
+Epoch 48/200, Step 0, Loss: 0.0000
+Epoch 48, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 49/200, Step 0, Loss: 0.0009
-Epoch 49, Loss: 0.0007, Acc: 100.00%
+Epoch 49/200, Step 0, Loss: 0.0000
+Epoch 49, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 50/200, Step 0, Loss: 0.0003
-Epoch 50, Loss: 0.0006, Acc: 100.00%
+Epoch 50/200, Step 0, Loss: 0.0000
+Epoch 50, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 51/200, Step 0, Loss: 0.0001
-Epoch 51, Loss: 0.0006, Acc: 100.00%
+Epoch 51/200, Step 0, Loss: 0.0000
+Epoch 51, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 52/200, Step 0, Loss: 0.0001
-Epoch 52, Loss: 0.0005, Acc: 100.00%
+Epoch 52/200, Step 0, Loss: 0.0000
+Epoch 52, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 53/200, Step 0, Loss: 0.0014
-Epoch 53, Loss: 0.0005, Acc: 100.00%
+Epoch 53/200, Step 0, Loss: 0.0000
+Epoch 53, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 54/200, Step 0, Loss: 0.0009
-Epoch 54, Loss: 0.0004, Acc: 100.00%
+Epoch 54/200, Step 0, Loss: 0.0000
+Epoch 54, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 55/200, Step 0, Loss: 0.0014
-Epoch 55, Loss: 0.0004, Acc: 100.00%
+Epoch 55/200, Step 0, Loss: 0.0000
+Epoch 55, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 56/200, Step 0, Loss: 0.0000
-Epoch 56, Loss: 0.0004, Acc: 100.00%
+Epoch 56, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 57/200, Step 0, Loss: 0.0001
-Epoch 57, Loss: 0.0004, Acc: 100.00%
+Epoch 57/200, Step 0, Loss: 0.0000
+Epoch 57, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 58/200, Step 0, Loss: 0.0008
-Epoch 58, Loss: 0.0003, Acc: 100.00%
+Epoch 58/200, Step 0, Loss: 0.0000
+Epoch 58, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 59/200, Step 0, Loss: 0.0002
-Epoch 59, Loss: 0.0004, Acc: 100.00%
+Epoch 59/200, Step 0, Loss: 0.0000
+Epoch 59, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 60/200, Step 0, Loss: 0.0003
-Epoch 60, Loss: 0.0004, Acc: 100.00%
+Epoch 60/200, Step 0, Loss: 0.0000
+Epoch 60, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 61/200, Step 0, Loss: 0.0002
-Epoch 61, Loss: 0.0004, Acc: 100.00%
+Epoch 61/200, Step 0, Loss: 0.0000
+Epoch 61, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 62/200, Step 0, Loss: 0.0003
-Epoch 62, Loss: 0.0003, Acc: 100.00%
+Epoch 62/200, Step 0, Loss: 0.0000
+Epoch 62, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 63/200, Step 0, Loss: 0.0006
-Epoch 63, Loss: 0.0003, Acc: 100.00%
+Epoch 63/200, Step 0, Loss: 0.0000
+Epoch 63, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 64/200, Step 0, Loss: 0.0006
-Epoch 64, Loss: 0.0003, Acc: 100.00%
+Epoch 64/200, Step 0, Loss: 0.0000
+Epoch 64, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 65/200, Step 0, Loss: 0.0000
-Epoch 65, Loss: 0.0003, Acc: 100.00%
+Epoch 65, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 66/200, Step 0, Loss: 0.0003
-Epoch 66, Loss: 0.0002, Acc: 100.00%
+Epoch 66/200, Step 0, Loss: 0.0000
+Epoch 66, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 67/200, Step 0, Loss: 0.0000
-Epoch 67, Loss: 0.0002, Acc: 100.00%
+Epoch 67, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 68/200, Step 0, Loss: 0.0000
-Epoch 68, Loss: 0.0002, Acc: 100.00%
+Epoch 68, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 69/200, Step 0, Loss: 0.0003
-Epoch 69, Loss: 0.0002, Acc: 100.00%
+Epoch 69/200, Step 0, Loss: 0.0000
+Epoch 69, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 70/200, Step 0, Loss: 0.0003
-Epoch 70, Loss: 0.0002, Acc: 100.00%
+Epoch 70/200, Step 0, Loss: 0.0000
+Epoch 70, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 71/200, Step 0, Loss: 0.0003
-Epoch 71, Loss: 0.0002, Acc: 100.00%
+Epoch 71/200, Step 0, Loss: 0.0000
+Epoch 71, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 72/200, Step 0, Loss: 0.0001
-Epoch 72, Loss: 0.0002, Acc: 100.00%
+Epoch 72/200, Step 0, Loss: 0.0000
+Epoch 72, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 73/200, Step 0, Loss: 0.0001
-Epoch 73, Loss: 0.0002, Acc: 100.00%
+Epoch 73/200, Step 0, Loss: 0.0000
+Epoch 73, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 74/200, Step 0, Loss: 0.0004
-Epoch 74, Loss: 0.0002, Acc: 100.00%
+Epoch 74/200, Step 0, Loss: 0.0000
+Epoch 74, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 75/200, Step 0, Loss: 0.0000
-Epoch 75, Loss: 0.0002, Acc: 100.00%
+Epoch 75, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 76/200, Step 0, Loss: 0.0004
-Epoch 76, Loss: 0.0001, Acc: 100.00%
+Epoch 76/200, Step 0, Loss: 0.0000
+Epoch 76, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 77/200, Step 0, Loss: 0.0000
-Epoch 77, Loss: 0.0001, Acc: 100.00%
+Epoch 77, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 78/200, Step 0, Loss: 0.0000
-Epoch 78, Loss: 0.0002, Acc: 100.00%
+Epoch 78, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 79/200, Step 0, Loss: 0.0000
-Epoch 79, Loss: 0.0001, Acc: 100.00%
+Epoch 79, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 80/200, Step 0, Loss: 0.0000
-Epoch 80, Loss: 0.0001, Acc: 100.00%
+Epoch 80, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 81/200, Step 0, Loss: 0.0003
-Epoch 81, Loss: 0.0001, Acc: 100.00%
+Epoch 81/200, Step 0, Loss: 0.0000
+Epoch 81, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 82/200, Step 0, Loss: 0.0000
-Epoch 82, Loss: 0.0001, Acc: 100.00%
+Epoch 82, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 83/200, Step 0, Loss: 0.0000
-Epoch 83, Loss: 0.0001, Acc: 100.00%
+Epoch 83, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 84/200, Step 0, Loss: 0.0001
-Epoch 84, Loss: 0.0001, Acc: 100.00%
+Epoch 84/200, Step 0, Loss: 0.0000
+Epoch 84, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 85/200, Step 0, Loss: 0.0001
-Epoch 85, Loss: 0.0001, Acc: 100.00%
+Epoch 85/200, Step 0, Loss: 0.0000
+Epoch 85, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 86/200, Step 0, Loss: 0.0001
-Epoch 86, Loss: 0.0001, Acc: 100.00%
+Epoch 86/200, Step 0, Loss: 0.0000
+Epoch 86, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 87/200, Step 0, Loss: 0.0001
-Epoch 87, Loss: 0.0001, Acc: 100.00%
+Epoch 87/200, Step 0, Loss: 0.0000
+Epoch 87, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 88/200, Step 0, Loss: 0.0001
-Epoch 88, Loss: 0.0001, Acc: 100.00%
+Epoch 88/200, Step 0, Loss: 0.0000
+Epoch 88, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 89/200, Step 0, Loss: 0.0002
-Epoch 89, Loss: 0.0001, Acc: 100.00%
+Epoch 89/200, Step 0, Loss: 0.0000
+Epoch 89, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 90/200, Step 0, Loss: 0.0001
-Epoch 90, Loss: 0.0001, Acc: 100.00%
+Epoch 90/200, Step 0, Loss: 0.0000
+Epoch 90, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 91/200, Step 0, Loss: 0.0001
-Epoch 91, Loss: 0.0001, Acc: 100.00%
+Epoch 91/200, Step 0, Loss: 0.0000
+Epoch 91, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 92/200, Step 0, Loss: 0.0001
-Epoch 92, Loss: 0.0001, Acc: 100.00%
+Epoch 92/200, Step 0, Loss: 0.0000
+Epoch 92, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 93/200, Step 0, Loss: 0.0000
-Epoch 93, Loss: 0.0001, Acc: 100.00%
+Epoch 93, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 94/200, Step 0, Loss: 0.0001
-Epoch 94, Loss: 0.0001, Acc: 100.00%
+Epoch 94/200, Step 0, Loss: 0.0000
+Epoch 94, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 95/200, Step 0, Loss: 0.0000
-Epoch 95, Loss: 0.0001, Acc: 100.00%
+Epoch 95, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 96/200, Step 0, Loss: 0.0001
-Epoch 96, Loss: 0.0001, Acc: 100.00%
+Epoch 96/200, Step 0, Loss: 0.0000
+Epoch 96, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 97/200, Step 0, Loss: 0.0000
 Epoch 97, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 98/200, Step 0, Loss: 0.0001
+Epoch 98/200, Step 0, Loss: 0.0000
 Epoch 98, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 99/200, Step 0, Loss: 0.0000
-Epoch 99, Loss: 0.0001, Acc: 100.00%
+Epoch 99, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 100/200, Step 0, Loss: 0.0001
+Epoch 100/200, Step 0, Loss: 0.0000
 Epoch 100, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 101/200, Step 0, Loss: 0.0000
 Epoch 101, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 102/200, Step 0, Loss: 0.0001
+Epoch 102/200, Step 0, Loss: 0.0000
 Epoch 102, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 103/200, Step 0, Loss: 0.0000
@@ -332,7 +332,7 @@ Epoch 109, Loss: 0.0000, Acc: 100.00%
 Epoch 110/200, Step 0, Loss: 0.0000
 Epoch 110, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
-Epoch 111/200, Step 0, Loss: 0.0001
+Epoch 111/200, Step 0, Loss: 0.0000
 Epoch 111, Loss: 0.0000, Acc: 100.00%
 模型已保存到 → color_runs\exp2\color_best.pth
 Epoch 112/200, Step 0, Loss: 0.0000
