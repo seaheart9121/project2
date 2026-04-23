@@ -431,7 +431,7 @@ class ParkingSystem(tk.Tk):
         def do_add():
             count = add_count_var.get()
             if count <= 0:
-                messagebox.showwarning("提示", "请输入大于0的数量！")
+                messagebox.showwarning("提示", "请输入大于0的整数！")
                 return
             success, msg = self.data_util.add_parking_spaces(count)
             self.add_log(msg)

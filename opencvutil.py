@@ -53,29 +53,29 @@ class OpenCVUtil:
         cv2.imwrite(save_path, img)
         return save_path, "图片导入成功！"
 
-    # # 图像预处理（灰度化、二值化、噪声过滤）
-    # def preprocess_image(self, img_path, save_path="./file/preprocessed_plate.jpg"):
-    #     """预处理图片，返回预处理后的图片路径和状态"""
-    #     # 读取图片
-    #     img = cv2.imread(img_path)
-    #     if img is None:
-    #         return None, "图片读取失败！"
-    #
-    #     # 1. 灰度化
-    #     gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    #     # 2. 高斯滤波去噪
-    #     blur_img = cv2.GaussianBlur(gray_img, (5, 5), 0)
-    #     # 3. 自适应二值化
-    #     binary_img = cv2.adaptiveThreshold(
-    #         blur_img, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 11, 2
-    #     )
-    #     # 4. 形态学操作，去除小噪点
-    #     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3))
-    #     final_img = cv2.morphologyEx(binary_img, cv2.MORPH_CLOSE, kernel)
-    #
-    #     # 保存预处理后的图片
-    #     cv2.imwrite(save_path, final_img)
-    #     return save_path, "预处理完成！"
+    # 图像预处理（灰度化、二值化、噪声过滤）
+    def preprocess_image(self, img_path, save_path="./file/preprocessed_plate.jpg"):
+        """预处理图片，返回预处理后的图片路径和状态"""
+        # 读取图片
+        img = cv2.imread(img_path)
+        if img is None:
+            return None, "图片读取失败！"
+
+        # 1. 灰度化
+        gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        # 2. 高斯滤波去噪
+        blur_img = cv2.GaussianBlur(gray_img, (5, 5), 0)
+        # 3. 自适应二值化
+        binary_img = cv2.adaptiveThreshold(
+            blur_img, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 11, 2
+        )
+        # 4. 形态学操作，去除小噪点
+        kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3))
+        final_img = cv2.morphologyEx(binary_img, cv2.MORPH_CLOSE, kernel)
+
+        # 保存预处理后的图片
+        cv2.imwrite(save_path, final_img)
+        return save_path, "预处理完成！"
 
     # 释放摄像头资源
     def release_cam(self):
