@@ -14,7 +14,7 @@ PathType = Union[str, os.PathLike[str]]
 
 CLASSES = ['蓝色', '黄色', '绿色']
 
-# 测试两个模型
+# 测试模型
 MODEL_PATHS: list[PathType] = [
     "./color_runs/exp1/color_best.pth",
     "./color_runs/exp2/color_best.pth",
