@@ -111,10 +111,10 @@ class OCRUtil:
                 if results:
                     plate_num = results[0]["号码"]
                     color = results[0]["颜色"]
-                    ocr_msg = f"本地OCR识别成功：{color} | {plate_num}"
+                    ocr_msg = f"本地O识别成功：{color} | {plate_num}"
                 else:
                     plate_num = "未识别车牌"
-                    ocr_msg = "本地OCR未检测到车牌"
+                    ocr_msg = "本地未检测到车牌"
 
                 return plate_num, ocr_msg
         except Exception as e:
